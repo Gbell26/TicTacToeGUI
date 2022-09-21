@@ -70,6 +70,10 @@ namespace SpecialProject1
             //checks the middle 3 buttons top down
             if (btnR2C1.Text != "" && btnR2C1.Text == btnR2C2.Text && btnR2C3.Text == btnR2C2.Text) { MessageBox.Show($"Winner! 3 {btnR2C1.Text}'s in a row!"); }
         }
+        private void DisableClicks()
+        {
+
+        }
     
     }
 }
